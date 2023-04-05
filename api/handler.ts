@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { sumTwoNumbers } from 'server/helpers';
+import { sumTwoNumbers } from 'src/server/helpers';
 
 export default function handler(
   request: VercelRequest,
